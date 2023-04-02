@@ -32,6 +32,16 @@ p {
 	margin-bottom: 20px;
 }
 
-.btn {
-	margin: 10px;
+#input-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+input {
+	margin: 0 5px;
+}
+
+button {
+	margin: 0 5px;
 }

@@ -23,8 +23,10 @@
 		<div class="container">
 			<div class="mx-auto rounded text-center">
 				<h1 class="text-center">Beef Generator</h1>
-				<input type="text" id="image-url" placeholder="Image Link to Beefify">
-				<button id="beefify" onclick="beefify(document.getElementById('image-url').value)">Beefify</button>
+				<div id="input-wrapper">
+					<input type="text" id="image-url" placeholder="Image Link to Beefify">
+					<button id="beefify" type="button" class="btn btn-primary" onclick="beefify(document.getElementById('image-url').value)">Beefify</button>	
+				</div>
 				<p class="text-center">
 					Right-click the emoji and click "Save As" to download it. This is to bypass CORS, so use at your own risk!
 				</p>
