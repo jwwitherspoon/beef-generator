@@ -30,13 +30,8 @@ body {
 p {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-size: 150%;
 }
 
 .btn {
 	margin: 10px;
-}
-
-#canvas {
-	margin-top: 2rem;
 }

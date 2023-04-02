@@ -1,3 +1,15 @@
+function loadBeef() {
+    // Load canvas context
+    const canvas = document.getElementById('canvas').getContext('2d');
+
+    // Load and draw beef
+    const beef = new Image();
+    beef.addEventListener('load', () => {
+        canvas.drawImage(beef, 0, 0);
+    });
+    beef.src = 'beef.png';    
+}
+
 function beefify(imageUrl) {
     // Load canvas context
     const canvas = document.getElementById('canvas').getContext('2d');
