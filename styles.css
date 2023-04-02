@@ -36,3 +36,11 @@ p {
 .btn {
 	margin: 10px;
 }
+
+#canvas {
+	margin-top: 2rem;
+}
+
+#download {
+	display: none;
+}
